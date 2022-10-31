@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khởi Nguồn | Storm Coffee®</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./khoinguon.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link Icon  -->
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="../quanlycafe/index.html" class="logo">
+        <img
+          style="width: 130px; padding-top: 10px; padding-bottom: 10px"
+          src="../storm-coffee/img/logo.png"
+          alt=""
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="../basic/lmao.html">Quán Cà Phê</a>
+        <a href="../Storm_Menu/index.html">Thực Đơn</a>
+        <a href="#">Tin Tức</a>
+        <a href="#contact">Cộng Đồng</a>
+        <a href="../storm-coffee/storm-coffee.html">Về Chúng Tôi</a>
+      </nav>
+    </header>
+    <div class="slide">
+      <img
+        class="img-responsive"
+        src="./img/aaa.png"
+        alt="slide"
+        width="100%"
+        height="400px"
+      />
+    </div>
+    <div class="content">
+      <h1>Khởi Nguồn</h1>
+      <h3>Thương hiệu bắt nguồn từ cà phê Việt Nam</h3>
+      <p>
+        Từ tình yêu với Việt Nam và niềm đam mê cà phê, năm 1999, thương hiệu
+        Storm Coffee® ra đời với khát vọng nâng tầm di sản cà phê lâu đời của
+        Việt Nam và lan rộng tinh thần tự hào, kết nối hài hoà giữa truyền thống
+        với hiện đại. Bắt đầu với sản phẩm cà phê đóng gói tại Hà Nội vào năm
+        2000, chúng tôi đã nhanh chóng phát triển và mở rộng thành thương hiệu
+        quán cà phê nổi tiếng và không ngừng mở rộng hoạt động trong và ngoài
+        nước từ năm 2002. Qua một chặng đường dài, chúng tôi đã không ngừng mang
+        đến những sản phẩm cà phê thơm ngon, sánh đượm trong không gian thoải
+        mái và lịch sự. Những ly cà phê của chúng tôi không chỉ đơn thuần là
+        thức uống quen thuộc mà còn mang trên mình một sứ mệnh văn hóa phản ánh
+        một phần nếp sống hiện đại của người Việt Nam. Đến nay, Storm Coffee®
+        vẫn duy trì khâu phân loại cà phê bằng tay để chọn ra từng hạt cà phê
+        chất lượng nhất, rang mới mỗi ngày và phục vụ quý khách với nụ cười rạng
+        rỡ trên môi. Bí quyết thành công của chúng tôi là đây: không gian quán
+        tuyệt vời, sản phẩm tuyệt hảo và dịch vụ chu đáo với mức giá phù hợp.
+      </p>
+    </div>
+    <div class="chuyenhuong">
+      <a href="./dichvu.html">
+        <img
+          style="padding-top: 120px; width: 400px"
+          src="./img/dichvu.png"
+          alt="dichvu"
+        />
+      </a>
+      <a href="./nghenghiep.html">
+        <img style="width: 400px" src="./img/nghenghiep.png" alt="nghenghiep" />
+      </a>
+    </div>
+    <div id="backtop">
+      <i class="fa fa-arrow-circle-o-up"> </i>
+    </div>
+
+    <div class="site-footer">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">
+            © 2022 Copyright: <a href="#">StormCoffee</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="ti-twitter"></i></a>
+            </li>
+            <li>
+              <a class="instagram" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            <li>
+              <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+          $("#backtop").fadeIn();
+        } else {
+          $("#backtop").fadeOut();
+        }
+      });
+      $("#backtop").click(function () {
+        $("html, body").animate({ scrollTop: 0 });
+      });
+    });
+  </script>
+</html>

@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.slide img {
+  width: 100%;
+  height: 400px;
+}
+.content {
+  padding-top: 70px;
+  padding-left: 150px;
+  font-family: "Open Sans", sans-serif;
+  width: 60%;
+}
+.content p {
+  color: #53382c;
+  font-size: 14px;
+  padding-top: 25px;
+  text-align: left;
+  padding-bottom: 25px;
+}
+.content h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #53382c;
+  transition: all 1s linear;
+  text-decoration: none;
+  display: block;
+  line-height: 55px;
+  padding-bottom: 15px;
+}
+.content h3 {
+  font-size: 15px;
+  color: #53382c;
+  text-decoration: none;
+  max-width: 40%;
+}
+.chuyenhuong {
+  max-width: 40%;
+  position: absolute;
+  top: 70%;
+  right: 150px;
+  padding-bottom: 50px;
+}
+.chuyenhuong img {
+  display: flex;
+}
+#backtop {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 1000;
+}
+.content .contact {
+  text-decoration: none;
+  color: red;
+}
+.slide {
+  padding-top: 125px;
+}
+.header .logo {
+  width: 10%;
+  padding: 0;
+}
+.header .w3-large {
+  position: relative;
+  padding-bottom: 50px;
+}
+.header .glyphicon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 27px;
+  font-size: 20px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.header {
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin-left: -40px;
+  border-top: 10px solid #53382c;
+}
+.header .co-vn {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  line-height: 27px;
+}
+
+.navbar {
+  width: 1000px;
+  padding-top: 10px;
+  padding-left: 0px;
+  margin-bottom: 0;
+}
+
+.header {
+  background-color: #057655;
+}
+.header .navbar a {
+  margin: 0 1rem;
+  padding: 20px;
+  padding-left: 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header .navbar a:hover {
+  color: #d3ad7f;
+  border-bottom: 1px solid #d3ad7f;
+  padding-bottom: 10px;
+}
+
+/* Begin Footer */
+.site-footer {
+  padding: 0;
+  margin: 0 auto;
+}
+.site-footer {
+  background-color: #53382c;
+  padding: 15px 50px 20px 50px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 180px;
+  position: relative;
+}
+.container {
+  max-width: 1200px;
+}
+.container .row {
+  width: 73.66667%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.site-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.site-footer a:hover {
+  color: #057655;
+  text-decoration: none;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #fff;
+}
+.copyright-text {
+  margin: 0;
+  padding-left: 220px;
+  position: absolute;
+}
+
+.social-icons {
+  padding-right: 250px;
+  margin-bottom: 0;
+  list-style: none;
+  position: relative;
+  right: 160px;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #53382c;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  color: #fff;
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  color: #fff;
+  background-color: #007bb6;
+}
+.social-icons a.instagram:hover {
+  color: #fff;
+  background-color: #fb3958;
+}
+/* End Footer  */

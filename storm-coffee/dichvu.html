@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dịch Vụ | Storm Coffee®</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./dichvu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link Icon  -->
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="../quanlycafe/index.html" class="logo">
+        <img
+          style="width: 130px; padding-top: 10px; padding-bottom: 10px"
+          src="../storm-coffee/img/logo.png"
+          alt=""
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="../basic/lmao.html">Quán Cà Phê</a>
+        <a href="../Storm_Menu/index.html">Thực Đơn</a>
+        <a href="#">Tin Tức</a>
+        <a href="#contact">Cộng Đồng</a>
+        <a href="../storm-coffee/storm-coffee.html">Về Chúng Tôi</a>
+      </nav>
+    </header>
+    <div class="slide">
+      <img src=".//img/abcd (1).png" alt="" />
+    </div>
+    <div class="content">
+      <h1>Dịch Vụ</h1>
+      <h3>Hãy chia sẻ với chúng tôi:</h3>
+      <p>
+        Chúng tôi mong muốn mang đến cho bạn những trải nghiệm đáng nhớ mỗi lần
+        đến Storm Coffee®. Hãy góp ý cho chúng tôi để chúng tôi có thể mang đến
+        cho bạn những trải nghiệm tuyệt vời hơn thế.
+      </p>
+      <h3>Chăm sóc khách hàng:</h3>
+      <p>
+        Chúng tôi có mặt trên mạng xã hội Facebook, vì vậy hãy chia sẻ với chúng
+        tôi tại:
+        <a class="contact" href="https://www.facebook.com/me.tdd1208"
+          >https://www.facebook.com/me.tdd1208/</a
+        >
+        <br />
+        hoặc bạn có thể gửi email cho chúng tôi theo địa chỉ: <br />
+        <a class="contact" href="">tddnhny@gmail.com</a>, chúng tôi sẽ trả lời
+        bạn trong thời gian sớm nhất có thể.
+      </p>
+    </div>
+    <div class="chuyenhuong">
+      <a href="./khoinguon.html">
+        <img
+          style="padding-top: 135px; width: 400px"
+          src=".//img/khoinguon.png"
+          alt="khoinguon"
+        />
+      </a>
+      <a href="./nghenghiep.html">
+        <img style="width: 400px" src="./img/nghenghiep.png" alt="nghenghiep" />
+      </a>
+    </div>
+    <div id="backtop">
+      <i class="fa fa-arrow-circle-o-up"> </i>
+    </div>
+
+    <div class="site-footer">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">
+            © 2022 Copyright: <a href="#">StormCoffee</a>
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="ti-twitter"></i></a>
+            </li>
+            <li>
+              <a class="instagram" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            <li>
+              <a class="linkedin" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(document).ready(function () {
+      $(window).scroll(function () {
+        if ($(this).scrollTop()) {
+          $("#backtop").fadeIn();
+        } else {
+          $("#backtop").fadeOut();
+        }
+      });
+      $("#backtop").click(function () {
+        $("html, body").animate({ scrollTop: 0 });
+      });
+    });
+  </script>
+</html>
